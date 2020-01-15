@@ -1,0 +1,104 @@
+body, html {
+    font-family: 'Montserrat' !important;
+}
+
+#linha-geral-site {
+    margin: 90px;
+    height:1px;
+    border:none;
+    background-color: #E4E1E1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* -------------------------------------------
+-------------- CSS do Contato ----------------
+---------------------------------------------- */
+
+#contato .contato-titulo {
+    text-align: center;
+}
+
+#contato .social-titulo {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 10px 20px;
+}
+
+/* -------------------------------------------
+--------- CSS do Contato - Social ------------
+---------------------------------------------- */
+
+#contato .social-networks{
+    width:25%; /*Essa coluna vai ocupar 25% do site*/
+    height:250px;
+    float:left; /*Responsável pela criação de colunas*/
+    border-right-color: darkslategray;
+    }
+
+#contato .social-app {
+    text-align: center;
+}
+
+#contato .social-img{
+    height: 45px;
+    width: 45px;
+    margin: 0px 0px 10px;
+}
+
+/* -------------------------------------------
+----------- CSS do Contato - Mapa ------------
+---------------------------------------------- */
+
+#contato .social-endereco{
+    width:50%; /*Essa coluna vai ocupar 50% do site*/
+    height:250px;
+    float:left; /*Responsável pela criação de colunas*/
+    }
+
+#contato .mapa-google{
+        height: 150px;
+        width: 100%;
+    }
+
+#contato .texto-rua{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* -------------------------------------------
+--------- CSS do Contato - Avaliação ---------
+---------------------------------------------- */
+
+#contato .social-avaliacao{
+    width:25%; /*Essa coluna vai ocupar 25% do site*/
+    height:250px;
+    float:left; /*Responsável pela criação de colunas*/
+    }
+
+#contato .texto-avaliacao{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* -------------------------------------------
+-------------- CSS do Footer -----------------
+---------------------------------------------- */
+
+#footer {
+    background-color: #3573ba;
+    height: 50px;
+}
+
+#footer .footer-img {
+    margin: 5px;
+    width: 120px;
+    float: left;
+}
+
+#footer .footer-text {
+    margin: 20px 10px;
+    color: white;
+    text-align: right;
+    font-size: 10px;
+}

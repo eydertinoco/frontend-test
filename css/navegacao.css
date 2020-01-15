@@ -1,0 +1,71 @@
+/* -------------------------------------------
+-------------- CSS da Navegação --------------
+---------------------------------------------- */
+
+#menu .nav {
+    padding:15px 0px;
+    margin:0px;
+    height: 55px;
+    text-align: center;
+    background-color:#3573ba;
+    list-style:none;
+}
+
+#menu .nav-item {
+    display: inline;
+}
+
+#menu .nav-link {
+    padding: 0px 10px;
+    display: inline-block;
+    background-color:#3573ba;
+    color: white;
+    text-decoration: none;
+}
+
+/* -------------------------------------------
+--------------- CSS da Busca -----------------
+---------------------------------------------- */
+
+#area-de-busca {
+    height: 315px;
+    text-align: center;
+}
+
+#area-de-busca .prefeiturademaceio { /* Imagem da Prefeitura de Maceió */
+    height: 48px;
+    filter: drop-shadow(0px 0px 10px black); /*Efeito de Sombreamento*/
+}
+
+#area-de-busca .titulodosite { /* Título "Portal de Transparência Municipal" */
+    font-size: 48px;
+    color: white;
+    filter: drop-shadow(0px 0px 10px black); /*Efeito de Sombreamento*/
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#area-de-busca .area-pesquisa { /* Local de Pesquisa */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius:10px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 3px darkslategray);
+}
+
+#area-de-busca .busca-site {
+    font-size: 18px;
+    width: 90%;
+    float:left;
+    background-color:transparent;
+    margin: 3px 15px;
+    border:none;
+}
+
+#area-de-busca .botao-lupa {
+    width: 40px;
+    background-color:transparent;
+    border:none;
+}

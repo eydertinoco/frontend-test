@@ -1,0 +1,73 @@
+#Corpo-Baixo .titulo-sites {
+    text-align: center;
+}
+
+#Corpo-Baixo .conteudo-geral {
+    display: inline;
+    text-align: center;
+    list-style:none;
+}
+
+#Corpo-Baixo .sites-box {
+    text-align: center;
+    list-style:none;
+}
+
+/* -------------------------------------------
+------------------ O Botão -------------------
+---------------------------------------------- */
+
+#Corpo-Baixo .servicos-maceio {
+    height: 135px;
+    width: 230px;
+    padding: 0px 0px;
+    margin: 30px 10px 30px 10px;
+    text-decoration: none;
+    border-radius:10px;
+    background-color: white;
+    border-style: solid;
+    border-color: #3573ba;
+    border: 2px;
+    filter: drop-shadow(0px 0px 3px darkslategray);
+}
+
+#Corpo-Baixo .servicos-maceio:hover {
+    filter: drop-shadow(0px 0px 3px #3573ba);
+}
+
+/* -------------------------------------------
+------------- Dentro do Botão ----------------
+---------------------------------------------- */
+
+#Corpo-Baixo .sites-box-img {
+    max-width:230px;
+    max-height:135px;
+    float: left;
+    padding: 0px 0px;
+    margin: -10px -10px;
+    display: block;
+}
+
+#Corpo-Baixo .linha-divisoria2 { /*Linha divisão do texto e imagem*/
+    height:4px;
+    border:none;
+    color:#3573ba;
+    background-color:#3573ba;
+    margin-top: 95px;
+    margin-bottom: 5px;
+}
+
+#Corpo-Baixo .sites-box-texto { /* Texto do Botão */
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    margin: 0px;
+    float: left;
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* -------------------------------------------
+-------------------- FIM ---------------------
+---------------------------------------------- */

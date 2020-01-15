@@ -1,0 +1,87 @@
+#Corpo .corpo-divisao {
+    text-align: center;
+    list-style:none;
+}
+
+#Corpo .box-content {
+    display: inline;
+}
+
+/* -------------------------------------------
+------------------ O Botão -------------------
+---------------------------------------------- */
+
+#Corpo .acesso-facil {
+    height: 140px;
+    width: 165px;
+    padding: 0px 5px;
+    margin: 0px 5px 25px;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius:10px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 3px darkslategray);
+}
+
+#Corpo .acesso-facil:hover {
+    border: 5px solid #3573ba;
+    filter: drop-shadow(0px 0px 3px #3573ba);
+}
+
+/* -------------------------------------------
+------------- Dentro do Botão ----------------
+---------------------------------------------- */
+
+#Corpo .servico-box-icone {
+    width: 50%;
+    height: 60%;
+    float: left;
+    padding: 10%;
+    margin: 0px 35px;
+    display: block;
+}
+
+#Corpo .linha-divisoria {
+    height:4px;
+    border:none;
+    color:#3573ba;
+    background-color:#3573ba;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#Corpo .titulo {
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    margin: 0px;
+    float: left;
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#Corpo .linha-divisoria-2019 {
+    height:4px;
+    border:none;
+    color: black;
+    background-color:black;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#Corpo .titulo-2019 {
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    margin: 0px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------
+-------------------- FIM ---------------------
+---------------------------------------------- */
